@@ -118,5 +118,32 @@ class ImportFromTemp:
 
 class TaskTable:
     add_task_button_css=(By.CSS_SELECTOR,"input[placeholder='+ Add task']")
+
+
+class ProjectUI:
+    project_tab_css=(By.CSS_SELECTOR,"a[href='/worklenz/projects']")
+    all_tab_css=(By.CSS_SELECTOR,"div[title='All']")
+    favourite_tab_css=(By.CSS_SELECTOR,"div[title='Favorites']")
+    archive_tab_css=(By.CSS_SELECTOR,"div[title='Archived']")
+    favourite_icon_css=(By.CSS_SELECTOR,"span[aria-label='star']")
+    refresh_button_css=(By.CSS_SELECTOR,"button[aria-label='Refresh projects'] span[class='ant-btn-icon']")
+    search_by_name_css=(By.CSS_SELECTOR,"input[placeholder='Search by name']")
+    create_project_button_css=(By.CSS_SELECTOR,"body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(1) > button:nth-child(1) > span:nth-child(2)")
+    drop_down_css=(By.CSS_SELECTOR,"span[class='anticon anticon-down']")
+    import_from_temp_css=(By.CSS_SELECTOR,".w-full.m-0.p-0")
+    edu_row_css=(By.CSS_SELECTOR,"body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(3) > tr:nth-child(1) > td:nth-child(2) > div:nth-child(1) > span:nth-child(2) > span:nth-child(1)")
+
+
+
+
+
+
+
+
+
+
+
+
 # python -m pytest test_cases/test_login/test_login.py
+
 

@@ -14,3 +14,6 @@ class LoginCredentials:
 
 
 
+class ProjectLoginCredentials:
+    valid_email = "projectpage@g.com"
+    valid_password = "200126@Dpw"
