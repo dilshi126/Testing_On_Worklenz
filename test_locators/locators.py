@@ -114,5 +114,9 @@ class ImportFromTemp:
     temp_list_css=(By.CSS_SELECTOR,".ant-menu.ant-menu-root.ant-menu-inline.ant-menu-light.template-menu.css-13y8tqx")
     create_button_css=(By.CSS_SELECTOR,"button[class='ant-btn css-13y8tqx ant-btn-primary ant-btn-color-primary ant-btn-variant-solid']")
     task_list_css=(By.CSS_SELECTOR,"div[id='rc-tabs-1-tab-tasks-list'] div[class='ant-flex css-13y8tqx ant-flex-align-center']")
+
+
+class TaskTable:
+    add_task_button_css=(By.CSS_SELECTOR,"input[placeholder='+ Add task']")
 # python -m pytest test_cases/test_login/test_login.py
 
