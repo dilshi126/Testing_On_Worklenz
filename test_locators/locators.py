@@ -134,10 +134,13 @@ class ProjectUI:
     import_from_temp_css=(By.CSS_SELECTOR,".w-full.m-0.p-0")
     edu_row_css=(By.CSS_SELECTOR,"body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(3) > tr:nth-child(1) > td:nth-child(2) > div:nth-child(1) > span:nth-child(2) > span:nth-child(1)")
 
-
-
-
-
+    construction_project_css=(By.CSS_SELECTOR,"body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(3) > tr:nth-child(1) > td:nth-child(2) > div:nth-child(1) > span:nth-child(2) > span:nth-child(1)")
+    subscribe_button_css=(By.CSS_SELECTOR,"body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > main:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > span:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(4) > span:nth-child(2)")
+    project_name_xpath=(By.XPATH,"//h4[normalize-space()='Construction']")
+    project_refresh_button = (By.CSS_SELECTOR,"svg[viewBox='64 64 896 896'][focusable='false'][data-icon='sync']")
+    save_temp_css=(By.CSS_SELECTOR,"svg[viewBox='64 64 896 896'][focusable='false'][data-icon='save']")
+    settings_button_css = (By.CSS_SELECTOR,"button[class='ant-btn css-avcqrf ant-btn-circle ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-tooltip-open'] span[aria-label='setting']")
+    invite_button_css = (By.CSS_SELECTOR,"button[class='ant-btn css-avcqrf ant-btn-primary ant-btn-color-primary ant-btn-variant-solid'] span[aria-label='usergroup-add'] svg path")
 
 
 
