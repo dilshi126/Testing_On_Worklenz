@@ -125,6 +125,7 @@ class ProjectUI:
     all_tab_css=(By.CSS_SELECTOR,"div[title='All']")
     favourite_tab_css=(By.CSS_SELECTOR,"div[title='Favorites']")
     archive_tab_css=(By.CSS_SELECTOR,"div[title='Archived']")
+    personal_xpath=(By.XPATH,"//span[contains(text(),'Personal use')]")
     favourite_icon_css=(By.CSS_SELECTOR,"span[aria-label='star']")
     refresh_button_css=(By.CSS_SELECTOR,"button[aria-label='Refresh projects'] span[class='ant-btn-icon']")
     search_by_name_css=(By.CSS_SELECTOR,"input[placeholder='Search by name']")
